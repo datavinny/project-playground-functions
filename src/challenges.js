@@ -12,9 +12,11 @@ function calcArea(base, height) {
   return (base * height) / 2
 }
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
+function splitSentence(sliptsentence) {
+  let splits = sliptsentence.split(' ', )
+  return splits
 }
+console.log(splitSentence('vamo que vamo'))
 // Desafio 4
 function concatName(strings) {
 return strings[strings.length-1] + ', ' + strings[0]
@@ -46,7 +48,6 @@ function highestCount(valores) {
     }
     return highestStreak
 }
-console.log(highestCount([0, 4, 4, 4, 9, 2, 1]));
 // Desafio 7
 function catAndMouse() {
   // seu código aqui
