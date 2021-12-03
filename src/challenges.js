@@ -29,20 +29,22 @@ function footballPoints(wins, ties) {
 }
 // Desafio 6
 function highestCount(valores) {
-  let highest = 1;
+  let highestStreak = 1;
   let armazem = 0;
   for (let counter = 0; counter < valores.length; counter += 1) {
       if (armazem < valores[counter]) {
       armazem = valores[counter];
+      highestStreak = 1;
+
       }
       else if (armazem === valores[counter]) {
         if(counter === 0) {
-          highest -= 1;
+          highestStreak -= 1;
         }
-        highest += 1;
+        highestStreak += 1;
       }
     }
-    return highest
+    return highestStreak
 }
 console.log(highestCount([0, 4, 4, 4, 9, 2, 1]));
 // Desafio 7
