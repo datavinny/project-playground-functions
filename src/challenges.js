@@ -16,7 +16,6 @@ function splitSentence(sliptsentence) {
   let splits = sliptsentence.split(' ', )
   return splits
 }
-console.log(splitSentence('vamo que vamo'))
 // Desafio 4
 function concatName(strings) {
 return strings[strings.length-1] + ', ' + strings[0]
@@ -49,10 +48,29 @@ function highestCount(valores) {
     return highestStreak
 }
 // Desafio 7
-function catAndMouse() {
-  // seu código aqui
+function catAndMouse(mouse, cat1, cat2) {
+ let distancia1 = mouse - cat1;//1 - 0
+ let distancia2 = mouse - cat2 ;// 1 - 2
+
+
+if (cat1 > mouse) {
+  distancia1 = cat1 - mouse
+}
+else if (cat2 > mouse) {
+  distancia2 = cat2 - mouse
 }
 
+ if (distancia1 < distancia2) {
+   return "cat1"
+ }
+ else if (distancia2 < distancia1) {
+   return "cat2"
+ }
+ else if (distancia1 === distancia2){
+   return "os gatos trombam e o rato foge"
+ }
+}
+console.log(catAndMouse(1, 0, 2))
 // Desafio 8
 function fizzBuzz() {
   // seu código aqui
