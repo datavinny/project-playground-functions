@@ -36,7 +36,6 @@ function highestCount(valores) {
       if (armazem < valores[counter]) {
       armazem = valores[counter];
       highestStreak = 1;
-
       }
       else if (armazem === valores[counter]) {
         if(counter === 0) {
@@ -74,7 +73,7 @@ else if (cat2 > mouse) {
 function fizzBuzz(numeros) {
   let result = [];
 
-  for (counter = 0; counter < numeros.length; counter += 1) {
+  for (let counter = 0; counter < numeros.length; counter += 1) {
 
     if (numeros[counter] % 5 === 0 && numeros[counter] % 3 === 0) {
       result.push("fizzBuzz")
@@ -91,13 +90,39 @@ function fizzBuzz(numeros) {
   }
   return result
 }
-console.log(fizzBuzz([2, 15, 7, 9, 45]))
 // Desafio 9
-function encode() {
-  // seu código aqui
+function encode(string) {
+  // for(let index = 0; index < string.length; index += 1) {
+  //   if (string[index] === 'a') {
+  //     string[index] = '1';
+  //   }
+  //   else if (string[index] === 'e') {
+  //     string[index] = '2';
+  //   }
+  //   else if (string[index] === 'i') {
+  //     string[index] = '3';
+  //   }
+  //   else if (string[index] === 'o') {
+  //     string[index] = '4';
+  //   }
+  //   else if (string[index] === 'u') {
+  //     string[index] = '5';
+  //   } 
+  // }
+  let newstring = string.replace(/a/g,'1');
+  newstring = newstring.replace(/e/g,'2');
+  newstring = newstring.replace(/i/g,'3');
+  newstring = newstring.replace(/o/g,'4');
+  newstring = newstring.replace(/u/g,'5');
+  return newstring
 }
-function decode() {
-  // seu código aqui
+function decode(string2) {
+  let newstring2 = string2.replace(/1/g,'a');
+  newstring2 = newstring2.replace(/2/g,'e');
+  newstring2 = newstring2.replace(/3/g,'i');
+  newstring2 = newstring2.replace(/4/g,'o');
+  newstring2 = newstring2.replace(/5/g,'u');
+  return newstring2
 }
 
 module.exports = {
