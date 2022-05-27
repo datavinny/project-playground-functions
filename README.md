@@ -5,10 +5,7 @@ Este projeto foi feito enquanto/para, etc.
 ## Técnologias usadas
 
 Front-end:
-> Desenvolvido usando: React, Redux, CSS3, HTML5, Redis, ES6
-
-Back-end:
-> Desenvolvido usando: NodeJS, ExpressJS, MongoDB, MYSQL, ES6
+> Desenvolvido usando: CSS3, HTML5, ES6
 
 ## Habilidades
 
