@@ -28,38 +28,21 @@ Neste projeto, foi testado habilidades de:
 ### Data de entrega
 
 - Projeto individual ou em grupo;
-- Foram X dias de projeto;
-- Data de entrega do projeto: `03/02/2022 - 14:00h`
+- Foram 1 dias de projeto;
+- Data de entrega do projeto: `06/12/2021 - 14:54h`
 
 ## Para testar/contribuir no Projeto
 
 ### Instalando Dependências
 
-> Backend
-```bash
-cd api/ && npm install
-``` 
 > Frontend
 ```bash
 cd src/ && npm install
 ``` 
 ### Executando aplicação
 
-* Para rodar o back-end:
-
-  ```
-  cd api/ && npm start
-  ```
 * Para rodar o front-end:
 
   ```
     cd src/ && npm start
-  ```
-
-### Executando Testes
-
-* Para rodar todos os testes:
-
-  ```
-    npm test
   ```
