@@ -1,6 +1,6 @@
 # Boas vindas ao repositório do Projeto Playground Functions!
 # Contexto
-Este projeto foi feito enquanto/para, etc.
+Este projeto foi feito enquanto estudava na @betrybe.
 
 ## Técnologias usadas
 
