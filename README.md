@@ -5,7 +5,7 @@ Este projeto foi feito enquanto/para, etc.
 ## Técnologias usadas
 
 Front-end:
-> Desenvolvido usando: CSS3, HTML5, ES6
+> Desenvolvido usando: ES6.
 
 ## Habilidades
 
@@ -27,19 +27,3 @@ Neste projeto, foi testado habilidades de:
 - Projeto individual ou em grupo;
 - Foram 1 dias de projeto;
 - Data de entrega do projeto: `06/12/2021 - 14:54h`
-
-## Para testar/contribuir no Projeto
-
-### Instalando Dependências
-
-> Frontend
-```bash
-cd src/ && npm install
-``` 
-### Executando aplicação
-
-* Para rodar o front-end:
-
-  ```
-    cd src/ && npm start
-  ```
